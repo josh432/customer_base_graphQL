@@ -1,0 +1,24 @@
+{
+  "name": "customer_base_graphql",
+  "version": "1.0.0",
+  "description": "Simple GraphQL Server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh432/customer_base_graphQL.git"
+  },
+  "author": "Josh Silverman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josh432/customer_base_graphQL/issues"
+  },
+  "homepage": "https://github.com/josh432/customer_base_graphQL#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "nodemon": "^1.18.10"
+  }
+}
